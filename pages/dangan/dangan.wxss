@@ -1,0 +1,4 @@
+/* pages/dangan/dangan.wxss */
+.dangan-tiao {
+  width: 300px;
+}

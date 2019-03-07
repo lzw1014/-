@@ -1,0 +1,67 @@
+/* pages/modou/modou.wxss */
+
+.modou-box {
+  /* background-color: yellow; */
+  height: 330rpx;
+  position: relative;
+  padding-top: 80rpx;
+}
+
+.modou-box::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -2;
+  content: ' ';
+  height: 330rpx;
+  width: 100%;
+  border-radius: 0 0 25% 25%;
+  background-color: yellow;
+}
+
+.modou-grade {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #fff;
+  padding: 20rpx 40rpx;
+  border-radius: 6px;
+  position: relative;
+}
+
+.modou-grade>view {
+  flex: 1;
+}
+
+.modou-grade::after {
+  width: 90%;
+  height: 170rpx;
+  position: absolute;
+  top: -25rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: goldenrod;
+  z-index: -1;
+  content: ' ';
+  border-radius: 6px;
+}
+
+.modou-method {
+  padding: 0 40rpx;
+}
+
+.modou-method>view {
+  margin-top: 20rpx;
+}
+
+.modou-method text {
+  background-color: pink;
+  border-radius: 16px;
+  padding: 10rpx;
+}
+
+.modou-flex {
+  display: flex;
+}

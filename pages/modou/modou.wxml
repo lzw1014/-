@@ -1,0 +1,49 @@
+<!--pages/modou/modou.wxml-->
+<view class='modou-box'>
+  <view class='modou-grade'>
+    <view>
+      <view>魔法等级</view>
+      <view style='margin-top: 8rpx;color: #ccc;'>距离下一等级还有2天</view>
+    </view>
+    <view style='text-align: center;'>
+      <view>魔豆</view>
+      <view style='margin-top: 8rpx;'>12</view>
+    </view>
+  </view>
+</view>
+<view class='modou-method'>
+  <view class='modou-flex'>
+    <view class='flex-one'>赚魔豆</view>
+    <view class='text-right'>历史记录</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>完善美丽档案</view>
+    <view class='text-right'>
+      <text>10魔豆</text>完善度80%</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>点赞</view>
+    <view class='text-right'>
+      <text>1魔豆</text>1次/天</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>发布帖子</view>
+    <view class='text-right'>
+      <text>1魔豆</text>1次/天</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>加好友成功</view>
+    <view class='text-right'>
+      <text>1魔豆</text>5次/天</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>每增加10粉丝</view>
+    <view class='text-right' style='margin-right: 29rpx;'>
+      <text>1魔豆</text>不限</view>
+  </view>
+  <view class='modou-flex'>
+    <view class='flex-one'>发布被收藏</view>
+    <view class='text-right'>
+      <text>1魔豆</text>5次/天</view>
+  </view>
+</view>

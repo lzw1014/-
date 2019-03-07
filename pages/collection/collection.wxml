@@ -1,0 +1,30 @@
+<!--pages/collection/collection.wxml-->
+<scroll-view scroll-y bindscrolltoupper='upper' bindscrolltolower='lower' style='height: 1500rpx;'>
+    <view class='coll-container' wx:for="{{shoucang}}" wx:key="{{index}}">
+        <view>
+            <image src='{{userInfo.avatarUrl}}' style='width: 80rpx;height: 80rpx;border-radius: 50%;'></image>
+        </view>
+        <view class='coll-content'>
+            <view>
+                <view class='coll-top'>
+                    <view>{{item.name}}
+                        <icon class='iconfont icon-good'></icon>
+                    </view>
+                    <view class='coll-follow'>+关注</view>
+                </view>
+                <view class='coll-time'>{{item.time}}</view>
+                <view>{{item.miaoshu}}</view>
+
+                <view>
+                    <image wx:for="{{item.arr}}" wx:for-item='cell' wx:key='{{index}}' src='{{cell}}' data-index='{{index}}' mode='aspectFit' catchtap='previewImg'></image>
+                </view>
+            </view>
+            <view bind>
+                <icon class='iconfont icon-good' style='color: skyblue;'></icon>
+                <text>{{item.zan}}</text>
+                <icon class='iconfont icon-good' style='margin-left: 30rpx; color: skyblue;'></icon>
+                <text>{{item.ping}}</text>
+            </view>
+        </view>
+    </view>
+</scroll-view>

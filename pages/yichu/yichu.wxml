@@ -1,0 +1,6 @@
+<!--pages/yichu/yichu.wxml-->
+<scroll-view scroll-x style='width: 100%;white-space: nowrap;'>
+  <view class='yichu-tab'>
+    <view wx:for='{{yichuLeibie}}' wx:key='{{item}}' bindtap='chooseType'>{{item}}</view>
+  </view>
+</scroll-view>

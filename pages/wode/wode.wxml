@@ -1,0 +1,82 @@
+<!--pages/wode/wode.wxml-->
+<view>
+  <view wx:if="{{!hasUserInfo && canIUse}}" class='me-login'>
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+  </view>
+  <view class='me-user' wx:else>
+    <view class='me-left'>
+      <view>
+        <text style="color: #fff;font-size: 44rpx;">{{userInfo.nickName}}</text>
+      </view>
+      <!-- <view>
+      <view class='me-jibie'>魔法等级</view>
+    </view> -->
+      <view class='me-shequ'>
+        <view>
+          <view>关注0
+            <text style='margin: 0 5px;'>·</text>
+          </view>
+        </view>
+        <view>
+          <view>粉丝10
+            <text style='margin: 0 5px;'>·</text>
+          </view>
+        </view>
+        <view>
+          <view>好友10</view>
+        </view>
+      </view>
+    </view>
+    <view class='me-right'>
+      <view class='me-userinfo'>
+        <view>
+          <image class='me-userinfo-avatar' src='{{userInfo.avatarUrl}}'></image>
+        </view>
+        <view>
+          <icon style='font-size: 60rpx;color: #E9DEFC;' class='iconfont icon-gengduo'></icon>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='me-my'>
+    <view class='me-dangan' bindtap='dangan'>
+      <view style='margin-right: 7px;'>
+        <image src='../../images/组 1@2x.png' style='width: 130rpx;height: 130rpx;' mode='aspectFit'></image>
+      </view>
+      <view>
+        <view>美丽档案</view>
+        <view style='color: #AFA9A9;'>待完成</view>
+
+      </view>
+    </view>
+    <view class='me-modou' bindtap='modou'>
+      <view style='margin-right: 7px;'>
+        <image src='../../images/组 1@2x(1).png' style='width: 130rpx;height: 130rpx;' mode='aspectFit'></image>
+      </view>
+      <view>
+        <view>我的魔豆</view>
+        <view style='color: #AFA9A9;'>12</view>
+      </view>
+    </view>
+  </view>
+  <view class='me-dercition'>魔法师</view>
+  <view class='me-center'>
+    <view>
+      <image src='../../images/矢量智能对象@2x.png' style='width: 58rpx;height: 58rpx;' mode='aspectFit'></image>
+      <view>我的发布</view>
+    </view>
+    <view>
+      <image src='../../images/矢量智能对象@2x(1).png' style='width: 58rpx;height: 58rpx;' mode='aspectFit'></image>
+      <view>美丽收藏</view>
+    </view>
+    <view>
+      <image src='../../images/组 1@2x(3).png' style='width: 58rpx;height: 58rpx;' mode='aspectFit'></image>
+      <view>穿搭档案</view>
+    </view>
+    <view>
+      <image src='../../images/组 1@2x(2).png' style='width: 58rpx;height: 58rpx;' mode='aspectFit'></image>
+      <view>衣橱管理</view>
+    </view>
+  </view>
+
+</view>

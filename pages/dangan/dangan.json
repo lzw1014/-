@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wxzx-slider": "../../common/wxzx-slider/wxzx-slider"
+  },
+  "component": true
+}

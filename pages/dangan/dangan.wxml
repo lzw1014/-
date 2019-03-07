@@ -1,0 +1,11 @@
+<!--pages/dangan/dangan.wxml-->
+<view class='dangan-box' style='width: 200px;height: 50px;overflow: hidden;margin: 0 auto;'>
+  <scroll-view scroll-x bindscroll='scroll'>
+    <view class='dangan-tiao'>
+      <image style='width: 640rpx;' src='../../images/tiao.jpg'></image>
+    </view>
+  </scroll-view>
+</view>
+<view class='slider_bg'>
+    <wxzx-slider id='wxzxSlider10' blockSrc='../../images/slider.png' blockImageWidth='54' blockImageHeight='54' value='40' max='100' percent='60'></wxzx-slider>  
+  </view>

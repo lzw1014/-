@@ -1,0 +1,11 @@
+/* pages/banner/banner.wxss */
+.banner-box {
+  position: relative;
+}
+.banner-box .banner-login {
+  position: absolute;
+  bottom: 240rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

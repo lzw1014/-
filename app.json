@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/banner/banner",
+    "pages/index/index",
+    "pages/meida/meida",
+    "pages/mofa/mofa",
+    "pages/xiaoxi/xiaoxi",
+    "pages/wode/wode",
+    "pages/release/release",
+    "pages/collection/collection",
+    "pages/dangan/dangan",
+    "pages/modou/modou",
+    "pages/yichu/yichu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meida/meida",
+        "text": "美搭"
+      },
+      {
+        "pagePath": "pages/mofa/mofa",
+        "text": "魔法衣橱"
+      },
+      {
+        "pagePath": "pages/xiaoxi/xiaoxi",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的"
+      }
+    ]
+  },
+  "cloud": true
+}

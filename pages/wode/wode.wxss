@@ -1,0 +1,111 @@
+/* pages/wode/wode.wxss */
+
+.me-login {
+  height: 240rpx;
+  display: flex;
+  align-items: center;
+}
+
+.me-user {
+  display: flex;
+  padding: 30rpx;
+  position: relative;
+  padding-top: 120rpx;
+}
+
+.me-user::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -2;
+  content: ' ';
+  height: 360rpx;
+  width: 100%;
+  border-radius: 0 0 10% 10%;
+  background-color: #7225ff;
+}
+
+.me-jibie {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.me-left {
+  flex: 1;
+}
+
+.me-shequ {
+  display: flex;
+  font-size: 24rpx;
+  color: #e5d8fd;
+  width: 100%;
+  padding-top: 35rpx;
+}
+
+.me-right {
+  flex: 1;
+}
+
+.me-userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.me-userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.me-rtkuohao {
+  font-size: 90rpx;
+  color: #ccc;
+}
+
+.me-my {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 15px 10px -15px #ccc;
+}
+
+.me-dangan {
+  display: flex;
+  font-size: 28rpx;
+  padding: 15rpx 25rpx 10rpx 0;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.me-modou {
+  display: flex;
+  font-size: 28rpx;
+  padding: 15rpx 25rpx 10rpx 20rpx;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.me-center {
+  display: flex;
+  margin-top: 50rpx;
+  padding: 20rpx 0;
+}
+
+.me-center>view {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.me-dercition {
+  width: 90%;
+  margin: 40rpx auto;
+  font-size: 36rpx;
+}

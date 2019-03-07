@@ -1,0 +1,93 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.1",
+	"appid": "wx2721315f2c6744cf",
+	"projectname": "%E9%AD%94%E6%B3%95%E5%B8%88",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的",
+					"pathName": "pages/wode/wode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的发布",
+					"pathName": "pages/release/release",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的收藏",
+					"pathName": "pages/collection/collection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "美丽档案",
+					"pathName": "pages/dangan/dangan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "魔豆",
+					"pathName": "pages/modou/modou",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "衣橱管理",
+					"pathName": "pages/yichu/yichu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "云开发",
+					"pathName": "pages/meida/meida",
+					"scene": null
+				}
+			]
+		}
+	}
+}

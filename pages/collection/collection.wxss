@@ -1,0 +1,28 @@
+/* pages/collection/collection.wxss */
+.coll-container {
+  display: flex;
+  padding: 0 26rpx;
+}
+.coll-content {
+  flex: 1;
+  padding: 10rpx 0 0 20rpx;
+}
+.coll-content image {
+  width: 150rpx;
+  height: 140rpx;
+}
+.coll-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.coll-follow {
+  padding: 5rpx;
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 5px;
+}
+.coll-time {
+  font-size: 20rpx;
+  color: #ccc;
+}

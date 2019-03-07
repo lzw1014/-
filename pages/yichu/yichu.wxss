@@ -1,0 +1,10 @@
+/* pages/yichu/yichu.wxss */
+.yichu-tab>view {
+  display: inline-block;
+  padding: 10rpx 20rpx;
+  border-radius: 10px;
+}
+.yichu-active {
+  background-color: #000;
+  color: #fff;
+}
